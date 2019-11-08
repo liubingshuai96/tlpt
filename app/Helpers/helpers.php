@@ -1,6 +1,8 @@
 <?php
 /**
  * @desc Object转Array数组
+ * datetime 2017-11-6
+ * author liu
  * @param Object对象
  * @return Array数组
  */
