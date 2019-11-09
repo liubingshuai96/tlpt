@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\SysAdmin;
 use Illuminate\Http\Request;
 use Session;
-
+//登录管理
 class LoginController extends Controller
 {
 

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use session;
+use DB;
 class SysAdmin extends Model
 {
     //
@@ -40,7 +41,8 @@ class SysAdmin extends Model
      * @Auther liu
      * @Time 2019-11-8 20:20
      * */
-    public static function select_sys_admin($page_size='',$page=1,$field){
+    public static function select_sys_admin($page_size='',$page=1,$field)
+    {
         $where_info = self::where('sys_admin.status','1');
 
         $page_size = $page_size ? $page_size : env('PAGE_SIZE');
@@ -57,9 +59,10 @@ class SysAdmin extends Model
     /**
    * @Desc 查询单条数据
    * @Auther liu
-   * @Time 2019-11-8
+   * @Time 2019-11-8 3:00
    * */
-    public static function find_sys_admin($where,$field=['*'],$id=''){
+    public static function find_sys_admin($where,$field=['*'],$id='')
+    {
         $admin_info = self::where($where);
         if(!empty($id)){
             $admin_info = $admin_info->where('id','!=',$id)->where('status','!=',2);
@@ -73,11 +76,21 @@ class SysAdmin extends Model
     /**
     * @Desc 添加管理员信息
     * @Auther liu
-    * @Time
+    * @Time 2019-11-9 9:08
     * */
-    public static function add_admin($data){
+    public static function add_admin($data)
+    {
 
         $result = self::insertGetId($data);
         return $result;
+    }
+    /**
+    * @Desc 修改数据
+    * @Auther liu
+    * @Time 2019-11-9 11:45
+    * */
+    public static function edit_sys_admin($field,$id,$data){
+        $res = self::where($field,$id)->update($data);
+        return $res;
     }
 }
