@@ -24,6 +24,30 @@ class User extends Model
         $result = object_to_array($result);
         return $result;
     }
+    /**
+     * 用户注册
+     * @author liu
+     * @datetime 2019/11/8 19:20
+     * @param $tel 电话
+     * @param $password 密码
+     * ap前端注册接口
+     */
+    static function user_register($name,$password,$role_id,$tel,$real_name,$email,$created_at,$updated_at,$idcard)
+    {
+        $now_time = time();
+        $data['user_name'] = $name;
+        $data['password'] = $password;
+        $data['md5_password'] = md5($password);
+        $data['real_name'] = $real_name;
+        $data['tel'] = $tel;
+        $data['role_id'] = $role_id;
+        $data['email'] = $email;
+        $data['created_at'] = $created_at;
+        $data['updated_at'] = $updated_at;
+        $data['idcard'] = $idcard;
+        $result = self::insertGetId($data);
+        return $result;
+    }
 
     /**
      * @Desc 查询所有用户信息

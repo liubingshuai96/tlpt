@@ -41,7 +41,7 @@ class Controller extends BaseController
         if(!empty($button)){
             $results['auth'] = $button;
         }
-        exit(json_encode($results));
+        exit(json_encode($results,JSON_UNESCAPED_UNICODE));
 
     }
 
@@ -69,6 +69,6 @@ class Controller extends BaseController
         } else {
             $results['data'] = $data;
         }
-        exit(json_encode($results));
+        exit(json_encode($results,JSON_UNESCAPED_UNICODE));
     }
 }

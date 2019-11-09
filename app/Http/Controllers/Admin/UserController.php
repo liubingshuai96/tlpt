@@ -8,8 +8,9 @@ use App\Models\User;
 
 class UserController extends Controller
 {
+
     /**
-     * @用户管理页面
+     * @用户管理接口
      * @time 2017-11-8
      * @author liu
      */
@@ -34,7 +35,9 @@ class UserController extends Controller
         $user_info = User::select_user_info($name,$tel,$idcard,$email,$created_at,$updated_at,$where,$page_size,$page,$field);
         self::success("请求成功",$user_info['list'],'',$user_info['total_page'],$user_info['total_data']);
 
-
     }
+
+
+
 
 }
