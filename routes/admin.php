@@ -14,3 +14,6 @@ Route::post('admin/admin_list','Admin\SysAdminController@admin_list'); //管理�
 Route::post('admin/add_admin','Admin\SysAdminController@add_admin'); //添加管理员
 Route::post('admin/edit_admin','Admin\SysAdminController@edit_admin'); //修改管理员
 Route::post('admin/del_admin','Admin\SysAdminController@del_admin'); //修改管理员
+
+//权限组管理
+Route::post('admin/permission_group','Admin\AdminGroupController@permission_group'); //权限组管理
