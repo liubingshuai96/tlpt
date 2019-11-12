@@ -82,11 +82,12 @@ class SysAdminController extends Controller
             }else{
                 self::error("操作有误");
             }
-            }else{
+            } else {
             //修改管理员信息
             $data['account'] = $request->input('account');
             $data['admin_group_id'] = $request->input('admin_group_id');
             $data['updated_at'] = time();
+            $data['type'] = 1;
             $edit_sys_admin_info = SysAdmin::edit_sys_admin("id",$id,$data);
             if($edit_sys_admin_info){
                 self::success("修改成功");
