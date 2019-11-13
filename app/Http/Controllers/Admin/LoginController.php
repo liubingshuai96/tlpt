@@ -9,8 +9,12 @@ use Session;
 //登录管理
 class LoginController extends Controller
 {
-
-    //后台登录
+    /**
+     * @desc 管理员登录
+     * @datetime 2019-11-8
+     * @author liu
+     * @param Request $request
+     */
     public function admin_login(Request $request)
     {
         $account = $request->input('account');
@@ -27,9 +31,9 @@ class LoginController extends Controller
         self::success($admin_info, 'success');
     }
     /**
-     * 管理员退出登录
-     * datetime 2019-11-8
-     * author liu
+     * @desc 管理员退出登录
+     * @datetime 2019-11-8
+     * @author liu
      * @param Request $request
      */
     function admin_quit(Request $request)

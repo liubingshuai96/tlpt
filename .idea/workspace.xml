@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="146f0cd9-12dc-4c74-86b6-43e4dfbffc0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/MenuAdminAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/MenuAdminButton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminRoleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/AdminRole.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../medicine/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminGroupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminGroupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SysAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SysAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AdminGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,13 +131,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/wenjian/ceshi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -183,7 +184,9 @@
       <workItem from="1573176215589" duration="17017000" />
       <workItem from="1573261394149" duration="14904000" />
       <workItem from="1573431713748" duration="21622000" />
-      <workItem from="1573518263874" duration="611000" />
+      <workItem from="1573518263874" duration="14554000" />
+      <workItem from="1573542876220" duration="5010000" />
+      <workItem from="1573606115922" duration="4160000" />
     </task>
     <servers />
   </component>

@@ -14,8 +14,8 @@ class AdminGroupController extends Controller
 
     /**
     * @Desc 菜单栏目
-    * @Time
-    * @Auther
+    * @Time 2019-11-11
+    * @Auther liu
     * */
     function menu_column()
     {
@@ -57,7 +57,7 @@ class AdminGroupController extends Controller
         $this->success("请求成功",$info);
     }
     /**
-    * @权限组管理
+    * @desc 权限组管理
     * @Time 2019-11-12
     * @Auther liu
     * */
@@ -70,7 +70,7 @@ class AdminGroupController extends Controller
         self::success("请求成功",$admin_group_list['list'],'',$admin_group_list['total_page'],$admin_group_list['total_data']);
     }
     /**
-    * @新增权限组
+    * @desc 新增权限组
     * @Time 2019-11-12
     * @Auther liu
     * */
@@ -96,7 +96,7 @@ class AdminGroupController extends Controller
         }
     }
      /**
-     * @修改权限组
+     * @desc 修改权限组
      * @Time 2019-11-12
      * @Auther liu
      * */

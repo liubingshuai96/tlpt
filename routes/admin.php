@@ -23,3 +23,8 @@ Route::post('admin/add_permission_group','Admin\AdminGroupController@add_permiss
 Route::post('admin/edit_admin_group','Admin\AdminGroupController@edit_admin_group'); //修改权限组管理
 Route::post('admin/del_admin_group','Admin\AdminGroupController@del_admin_group'); //删除权限组管理
 Route::post('admin/menu_column','Admin\AdminGroupController@menu_column');      //菜单栏目
+//角色管理
+Route::post('admin/role_list','Admin\AdminRoleController@role_list');    //角色列表
+Route::post('admin/add_role','Admin\AdminRoleController@add_role');    //添加角色
+Route::post('admin/edit_role','Admin\AdminRoleController@edit_role');    //修改角色
+Route::post('admin/del_role','Admin\AdminRoleController@del_role');    //删除角色

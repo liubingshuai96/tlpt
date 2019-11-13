@@ -11,7 +11,7 @@ class UserController extends Controller
 
     /**
      * @用户管理接口
-     * @time 2017-11-8
+     * @time 2019-11-9
      * @author liu
      */
     public function user_mange(Request $request)
