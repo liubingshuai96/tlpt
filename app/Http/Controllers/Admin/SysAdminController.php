@@ -21,9 +21,6 @@ class SysAdminController extends Controller
         $field = array("sys_admin.id","sys_admin.account","sys_admin.created_at","sys_admin.updated_at","admin_group.admin_name as group_name");
 
         $admin_group_list = SysAdmin::select_sys_admin($page_size,$page,$field);
-        foreach($admin_group_list["list"] as $k=>$value){
-            $admin_group_list["list"][$k]["account"] = substr_replace($value['account'],'****',5,4);
-        }
         $this->success("请求成功",$admin_group_list['list'],'',$admin_group_list['total_page'],$admin_group_list['total_data']);
     }
     /**
@@ -109,12 +106,12 @@ class SysAdminController extends Controller
             self::error("missing parameter");
         }
         $admin_data['status'] = '4';  //4删除
-        $del_admin_info = SysAdmin::edit_sys_admin("id",$admin_id,$admin_data);
+        $del_admin_info = SysAdmin::del_sys_admin("id",$admin_id,$admin_data);
 
         if($del_admin_info){
             self::success("删除成功");
         }else{
-            self::failed("删除失败");
+            self::error("删除失败");
         }
     }
 

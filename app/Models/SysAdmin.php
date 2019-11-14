@@ -3,8 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use session;
-use DB;
+
 class SysAdmin extends Model
 {
     //
@@ -44,9 +43,7 @@ class SysAdmin extends Model
     public static function select_sys_admin($page_size='',$page=1,$field)
     {
         $where_info = self::where('sys_admin.status','1');
-
         $page_size = $page_size ? $page_size : env('PAGE_SIZE');
-
         $where_info = $where_info->orderBy('created_at','desc')
             ->leftjoin("admin_group","sys_admin.admin_group_id","=","admin_group.id")
             ->paginate($page_size,$field,null,$page);
@@ -91,6 +88,15 @@ class SysAdmin extends Model
     * */
     public static function edit_sys_admin($field,$id,$data){
         $res = self::where($field,$id)->update($data);
+        return $res;
+    }
+    /**
+     * @Desc 删除管理员
+     * @Auther liu
+     * @Time 2019-11-14 11:45
+     * */
+    public static function del_sys_admin($field,$id,$data){
+        $res = self::where($field,$id)->delete($data);
         return $res;
     }
 }

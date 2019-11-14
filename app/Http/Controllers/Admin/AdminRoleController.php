@@ -106,8 +106,8 @@ class AdminRoleController extends Controller
         if(!$role_id) {
             self::error('miss');
         }
-        $role_data['status'] = 4;
-        $del_role = AdminRole::del_role('id',$role_id,$role_data);
+        //$role_data['status'] = 4;
+        $del_role = AdminRole::del_role('id',$role_id);
         if($del_role) {
             self::success('删除成功');
         } else {

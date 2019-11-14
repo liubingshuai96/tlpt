@@ -10,7 +10,7 @@ class UserController extends Controller
 {
 
     /**
-     * @用户管理接口
+     * @desc 用户管理接口
      * @time 2019-11-9
      * @author liu
      */

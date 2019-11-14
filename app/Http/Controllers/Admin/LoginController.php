@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\SysAdmin;
 use Illuminate\Http\Request;
-use Session;
+
 //登录管理
 class LoginController extends Controller
 {
@@ -25,7 +25,7 @@ class LoginController extends Controller
         }
         $admin_info = SysAdmin::find_admin($account, $password);
 
-        if (empty($admin_info)) {
+        if (isset($admin_info)) {
             self::error('账号或密码不对');
         }
         self::success($admin_info, 'success');
