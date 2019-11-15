@@ -19,7 +19,6 @@ class SysAdminController extends Controller
         $page = $request->input('page',1);
         $page_size = $request->input('page_size');
         $field = array("sys_admin.id","sys_admin.account","sys_admin.created_at","sys_admin.updated_at","admin_group.admin_name as group_name");
-
         $admin_group_list = SysAdmin::select_sys_admin($page_size,$page,$field);
         $this->success("请求成功",$admin_group_list['list'],'',$admin_group_list['total_page'],$admin_group_list['total_data']);
     }
@@ -30,7 +29,6 @@ class SysAdminController extends Controller
     * */
     public function add_admin(Request $request)
     {
-        $date['id'] = $request->input('id');
         $data['account'] = $request->input('account');
         $data['tel'] = $request->input('tel');
         $data['password'] = md5($request->input('password'));

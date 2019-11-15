@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class AdminGroup extends Model
 {
     //数据库名称
-    public $table = 'admin_group';
+    protected $table = 'admin_group';
     //数据库主键
     public $primaryKey = 'id';
     public $dateFormat = 'U';

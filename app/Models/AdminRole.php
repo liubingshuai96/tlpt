@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class AdminRole extends Model
 {
     //数据库名称
-    public $table = 'role_fun';
+    protected $table = 'role_fun';
     //数据库主键
     public $primaryKey = 'id';
     public $dateFormat = 'U';

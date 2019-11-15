@@ -30,3 +30,8 @@ Route::post('admin/add_role','Admin\AdminRoleController@add_role');    //添加�
 Route::post('admin/edit_role','Admin\AdminRoleController@edit_role');    //修改角色
 Route::post('admin/del_role','Admin\AdminRoleController@del_role');    //删除角色
 
+//药材管理
+Route::post('medicine/medicine_list','Admin\MedicineController@medicine_list'); //药材列表
+Route::post('medicine/add_medicine','Admin\MedicineController@add_medicine');  //添加药材
+Route::post('medicine/edit_medicine','Admin\MedicineController@edit_medicine'); //修改药材
+Route::post('medicine/del_medicine','Admin\MedicineController@del_medicine');  //删除药材

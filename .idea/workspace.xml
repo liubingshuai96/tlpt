@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="146f0cd9-12dc-4c74-86b6-43e4dfbffc0f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../medicine/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MedicineController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Medicine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminRoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminRoleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SysAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SysAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/SysAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SysAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/AdminGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminGroup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/AdminRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminRole.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/wenjian/xiaomi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -187,7 +189,11 @@
       <workItem from="1573542876220" duration="5010000" />
       <workItem from="1573606115922" duration="6577000" />
       <workItem from="1573615947425" duration="3398000" />
-      <workItem from="1573691127825" duration="5622000" />
+      <workItem from="1573691127825" duration="21226000" />
+      <workItem from="1573730196011" duration="605000" />
+      <workItem from="1573779033098" duration="641000" />
+      <workItem from="1573781318292" duration="6849000" />
+      <workItem from="1573792865301" duration="1201000" />
     </task>
     <servers />
   </component>
