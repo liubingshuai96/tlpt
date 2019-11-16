@@ -78,7 +78,7 @@ class MedicineController extends Controller
                 self::error("操作有误");
             }
         } else {
-            //修改管理员信息
+            //修改药材信息
             $data['medicine_name'] = $request->input('medicine_name');
             $data['medicine_price'] = $request->input('medicine_price');
             $data['updated_at'] = time();

@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="146f0cd9-12dc-4c74-86b6-43e4dfbffc0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../jkg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../medicine/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MedicineController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Medicine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/.idea/tlptele.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/element-starter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tlptele/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/.idea/vue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SysAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/SysAdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AdminGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminGroup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AdminRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminRole.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tlptele" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -193,7 +201,8 @@
       <workItem from="1573730196011" duration="605000" />
       <workItem from="1573779033098" duration="641000" />
       <workItem from="1573781318292" duration="6849000" />
-      <workItem from="1573792865301" duration="1201000" />
+      <workItem from="1573792865301" duration="5931000" />
+      <workItem from="1573864759567" duration="3256000" />
     </task>
     <servers />
   </component>
